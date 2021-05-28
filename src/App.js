@@ -4,6 +4,7 @@ import "./App.css";
 const name = "intan irnanda";
 const element = <h1>Hello, {name}</h1>;
 
+
 function App() {
   function handleSubmit(e) {
     e.preventDefault();
@@ -15,6 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{element}</p>
+        <h1>This web is only for fun</h1>
         <form onSubmit={handleSubmit}>
           <button type="submit">Submit</button>
         </form>
